@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --green: #00bfa6;
+  --gray: #c2c2c2;
+  --white: #fff;
+}
+
+body {
+  font-size: 1.6rem;
+
+  background-color: var(--white);
+  color: var(--white);
+
+  font-family: 'Roboto', sans-serif;
+
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 50vw;
+  height: 50vh;
+
+  padding: 1.5rem;
+
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.72);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper .top p {
+  text-align: left;
+  font-family: monospace;
+
+  font-size: clamp(1.4rem, 1.6rem, 2rem);
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.wrapper .mid h1 {
+  text-align: center;
+  font-family: 'Great Vibes', sans-serif;
+
+  font-size: clamp(2.8rem, 3.6rem + 1vw, 6rem);
+}
+
+.wrapper .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper .bottom .github {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.wrapper .bottom .github svg {
+  fill: white;
+  width: clamp(2rem, 2.5rem, 4rem);
+  height: clamp(2rem, 2.5rem, 4rem);
+}
+
+.wrapper .bottom .github p {
+  font-size: clamp(1.4rem, 1.6rem, 2rem);
+}
+
+.wrapper .bottom p {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(1.4rem, 1.6rem, 2rem);
+}
