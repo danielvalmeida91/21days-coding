@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Calculadora</title>
+
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="calculator">
+        <div class="results">
+          <div class="history"></div>
+          <div class="result"></div>
+        </div>
+        <div class="buttons">
+          <div class="line">
+            <div id="clear" class="button operator green">AC</div>
+            <div id="bracket" class="button operator blue">
+              &#40; &nbsp; &#41;
+            </div>
+            <div id="percent" class="button operator blue">&#37;</div>
+            <div id="split" class="button operator blue">&#47;</div>
+          </div>
+          <div class="line">
+            <div id="seven" class="button number">7</div>
+            <div id="eight" class="button number">8</div>
+            <div id="nine" class="button number">9</div>
+            <div id="multiply" class="button operator blue">&#42;</div>
+          </div>
+          <div class="line">
+            <div id="four" class="button number">4</div>
+            <div id="five" class="button number">5</div>
+            <div id="six" class="button number">6</div>
+            <div id="subtract" class="button operator blue">&#45;</div>
+          </div>
+          <div class="line">
+            <div id="one" class="button number">1</div>
+            <div id="two" class="button number">2</div>
+            <div id="three" class="button number">3</div>
+            <div id="add" class="button operator blue">&#43;</div>
+          </div>
+          <div class="line">
+            <div id="zero" class="button number">0</div>
+            <div id="comma" class="button number">,</div>
+            <div id="del" class="button number">
+              <svg
+                class="icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+              >
+                <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M576 384C576 419.3 547.3 448 512 448H205.3C188.3 448 172 441.3 160 429.3L9.372 278.6C3.371 272.6 0 264.5 0 256C0 247.5 3.372 239.4 9.372 233.4L160 82.75C172 70.74 188.3 64 205.3 64H512C547.3 64 576 92.65 576 128V384zM271 208.1L318.1 256L271 303C261.7 312.4 261.7 327.6 271 336.1C280.4 346.3 295.6 346.3 304.1 336.1L352 289.9L399 336.1C408.4 346.3 423.6 346.3 432.1 336.1C442.3 327.6 442.3 312.4 432.1 303L385.9 256L432.1 208.1C442.3 199.6 442.3 184.4 432.1 175C423.6 165.7 408.4 165.7 399 175L352 222.1L304.1 175C295.6 165.7 280.4 165.7 271 175C261.7 184.4 261.7 199.6 271 208.1V208.1z"
+                />
+              </svg>
+            </div>
+            <div class="button operator blue equals">&#61;</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>
+          Made by
+          <a href="http://github.com/danielvalmeida91" target="_blank">
+            <strong>@danielvalmeida91</strong>
+          </a>
+        </p>
+        <p>#21diasdecodigo - Day 3/21</p>
+      </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
