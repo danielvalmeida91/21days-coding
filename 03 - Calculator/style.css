@@ -13,6 +13,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background-color: rgb(24, 23, 23);
 }
 
 .page {
@@ -50,7 +52,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-color: black;
+  background-color: rgba(2, 2, 2, 0.583);
 
   border-radius: 2rem;
 
@@ -119,7 +121,7 @@ body {
   justify-content: center;
   font-family: 'Roboto', sans-serif;
   font-size: 2.6rem;
-  color: black;
+  color: rgb(202, 202, 202);
 }
 
 .footer a {
@@ -131,5 +133,5 @@ body {
 }
 
 .footer a:visited {
-  color: black;
+  color: rgb(202, 202, 202);
 }
