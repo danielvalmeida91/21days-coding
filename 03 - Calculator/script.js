@@ -74,6 +74,9 @@ document.addEventListener('click', btnClicked => {
     case el.multiply:
       operator = operators.multiply
       break
+    case el.percent:
+      operator = operators.percent
+      break
 
     default:
       break
