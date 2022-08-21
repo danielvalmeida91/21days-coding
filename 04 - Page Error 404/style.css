@@ -1,0 +1,128 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 5px;
+
+  padding: 1rem;
+
+  background-color: black;
+}
+
+.menu a {
+  text-decoration: none;
+
+  padding: 1rem 2rem;
+
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+.menu a:visited {
+  color: white;
+}
+
+.title p {
+  color: white;
+  padding-right: 2rem;
+
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #c2c2c288;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.wrapper svg {
+  width: 20rem;
+  height: 20rem;
+}
+
+.wrapper span {
+  font-size: 7.2rem;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.image img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+
+  margin-bottom: 5rem;
+}
+
+.bio {
+  width: 50rem;
+
+  font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.instagram,
+.github,
+.email {
+  display: flex;
+  align-items: center;
+
+  gap: 1rem;
+
+  margin-bottom: 2rem;
+}
+
+.instagram svg,
+.github svg,
+.email svg {
+  width: 5rem;
+  height: 5rem;
+}
+
+.instagram a,
+.github a,
+.email a {
+  font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.instagram a:visited,
+.github a:visited,
+.email a:visited {
+  color: black;
+}
