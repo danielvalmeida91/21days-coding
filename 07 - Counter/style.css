@@ -1,0 +1,72 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+
+  font-family: 'Montserrat', sans-serif;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  height: 100vh;
+}
+
+.tutorial p {
+  font-size: 1.4rem;
+  color: #ccc;
+  font-style: italic;
+}
+
+.clock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+  width: 30rem;
+  height: 15rem;
+
+  border: 3px solid black;
+}
+
+.clock span {
+  font-size: 7.2rem;
+}
+
+.minutes,
+.seconds {
+  font-size: 7.2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.buttons button {
+  border: none;
+  background-color: transparent;
+}
+
+.buttons button svg path {
+  fill: black;
+}

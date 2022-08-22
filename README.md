@@ -9,3 +9,10 @@
 5. Desenvolva uma página customizada que exiba o erro 404. [Day 5 - Page 404](https://github.com/danielvalmeida91/21days-coding/tree/main/04%20-%20Page%20Error%20404) ✓
 6. Crie um card com efeito glassmorphism. [Day 6 - Glassmorphism](https://github.com/danielvalmeida91/21days-coding/tree/main/05%20-%20Glassmorphism) ✓
 7. Desenvolva um contador.
+8. Desenvolva um toggle que altere o tema para claro e escuro.
+9. Crie uma animação de loading.
+10. Utilize a lib Particle.js de JavaScript.
+11. Crie o layout de um formulário de login.
+12. Desenvolva uma galeria de imagens.
+13. Desenvolva uma menu responsivo.
+14. Crie um formulário de quizzes.

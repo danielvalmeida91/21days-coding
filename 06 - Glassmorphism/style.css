@@ -21,6 +21,8 @@ body {
   align-items: center;
   justify-content: center;
 
+  gap: 2rem;
+
   height: 100vh;
 }
 
@@ -73,4 +75,18 @@ body {
   width: 4rem;
   height: 4rem;
   fill: greenyellow;
+}
+
+.footer {
+  width: 30rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer span {
+  font-family: 'Roboto', sans-serif;
+  color: antiquewhite;
+  font-size: 1.6rem;
 }
