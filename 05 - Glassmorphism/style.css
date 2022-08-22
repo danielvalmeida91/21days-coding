@@ -1,0 +1,76 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./images/matrix-5361690.png');
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.card {
+  width: 30rem;
+  height: 40rem;
+  background: rgba(178, 242, 196, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 2rem;
+
+  border: 2px solid greenyellow;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+
+  border: 2px solid greenyellow;
+}
+
+.bio h1 {
+  font-size: 1.8rem;
+  color: antiquewhite;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+
+.instagram svg,
+.github svg,
+.email svg {
+  width: 4rem;
+  height: 4rem;
+  fill: greenyellow;
+}
