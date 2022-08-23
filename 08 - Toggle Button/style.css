@@ -1,0 +1,178 @@
+:root {
+  font-size: 62.5%;
+  --linkedin: #0e76a8;
+  --instagram: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  --github: #171515;
+
+  --background: #121214;
+
+  /* theme */
+  --clr-foreground: hsl(0 0% 0%);
+  --clr-background: hsl(0 0% 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+
+  width: 100vw;
+  height: 100vh;
+  background: var(--background);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 100vh;
+
+  padding: 3rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.157);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 4rem;
+}
+
+.title {
+  font-family: sans-serif;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.card {
+  width: 10rem;
+  height: 10rem;
+  background-color: var(--background);
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card svg {
+  width: 4rem;
+  height: 4rem;
+
+  fill: white;
+
+  overflow: auto;
+}
+
+.github,
+.instagram,
+.linkedin {
+  transition: all 400ms linear 400ms;
+}
+
+.github:hover,
+.instagram:hover,
+.linkedin:hover {
+  filter: brightness(1.2);
+  transform: scale(1.2);
+
+  border-radius: 50%;
+}
+
+.container {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+/* Styles about button theme */
+
+button {
+  border: none;
+  background: transparent;
+
+  object-fit: cover;
+  cursor: pointer;
+}
+
+button svg path {
+  fill: white;
+}
+
+.hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@keyframes pulseToLight {
+  0% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+  10% {
+    transform: scale(1);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulseToDark {
+  0% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+  10% {
+    transform: scale(1);
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
