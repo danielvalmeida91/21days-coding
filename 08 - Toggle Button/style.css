@@ -18,6 +18,23 @@
   --clr-background: hsl(0 0% 100%);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-background: hsl(0 0% 0%);
+    --clr-foreground: hsl(0 0% 100%);
+  }
+}
+
+.light-theme {
+  --clr-foreground: hsl(0 0% 0%);
+  --clr-background: hsl(0 0% 100%);
+}
+
+.dark-theme {
+  --clr-background: hsl(0 0% 0%);
+  --clr-foreground: hsl(0 0% 100%);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +52,10 @@ body {
 
   width: 100vw;
   height: 100vh;
-  background: var(--background);
+
+  background: var(--clr-background);
+  color: var(--clr-foreground);
+  font-family: sans-serif;
 }
 
 .page {
@@ -67,7 +87,7 @@ body {
 
 .title {
   font-family: sans-serif;
-  color: white;
+  color: var(--clr-foreground);
 }
 
 .cards {
@@ -79,7 +99,7 @@ body {
 .card {
   width: 10rem;
   height: 10rem;
-  background-color: var(--background);
+  background-color: var(--clr-foreground);
   border-radius: 16px;
 
   display: flex;
@@ -91,7 +111,7 @@ body {
   width: 4rem;
   height: 4rem;
 
-  fill: white;
+  fill: var(--clr-background);
 
   overflow: auto;
 }
@@ -99,7 +119,7 @@ body {
 .github,
 .instagram,
 .linkedin {
-  transition: all 400ms linear 400ms;
+  transition: all 200ms ease 200ms;
 }
 
 .github:hover,
@@ -111,36 +131,104 @@ body {
   border-radius: 50%;
 }
 
-.container {
-  position: absolute;
-  right: 5%;
-  top: 5%;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+
+.footer p {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: var(--clr-foreground);
 }
 
 /* Styles about button theme */
 
-button {
-  border: none;
-  background: transparent;
+button svg {
+  width: 5rem;
+  height: 5rem;
+}
 
-  object-fit: cover;
+#theme-toggle {
   cursor: pointer;
+  background: 0;
+  border: 0;
+  opacity: 0.8;
+  padding: 1rem;
+  border-radius: 50%;
 }
 
-button svg path {
-  fill: white;
+#theme-toggle svg {
+  fill: var(--clr-foreground);
 }
 
-.hide {
+#theme-toggle::before {
+  content: '';
   position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
+  inset: 0;
+  background: hsl(0 0% 50% / 0.2);
+  transform: scale(0);
+  opacity: 0;
+}
+
+.light-theme #theme-toggle::before {
+  animation: pulseToLight 650ms ease-out;
+}
+
+.dark-theme #theme-toggle::before {
+  animation: pulseToDark 650ms ease-out;
+}
+
+#theme-toggle::after {
+  content: attr(aria-label);
+  position: absolute;
+  color: var(--clr-background);
+  width: max-content;
+  font-size: 1.5rem;
+  left: 0;
+  right: 0;
+  top: 95%;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  border-radius: 0.125em;
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: top;
+  transition: transform 0ms linear 100ms, opacity 100ms linear;
+}
+
+#theme-toggle:hover,
+#theme-toggle:focus {
+  outline: 0;
+  opacity: 1;
+  background: hsl(0 0% 50% / 0.15);
+}
+
+#theme-toggle:hover::after,
+#theme-toggle:focus-visible::after {
+  opacity: 0.7;
+  transform: scale(1);
+  transition: transform 70ms linear, opacity 70ms linear;
+}
+
+.toggle-circle {
+  transition: transform 500ms ease-out;
+}
+
+.light-theme .toggle-circle {
+  transform: translateX(-15%);
+}
+
+.toggle-sun {
+  transform-origin: center center;
+  transition: transform 750ms cubic-bezier(0.11, 0.14, 0.29, 1.32);
+}
+
+.light-theme .toggle-sun {
+  transform: rotate(0.5turn);
 }
 
 @keyframes pulseToLight {
