@@ -1,0 +1,156 @@
+:root {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.container h1 {
+  font-size: 2.4rem;
+  font-family: monospace;
+}
+
+footer p {
+  font-size: 1.6rem;
+  color: #ccc;
+  font-style: italic;
+}
+
+button {
+  position: relative;
+  background-color: transparent;
+
+  /* animation: loading 6s; */
+
+  transition: all 0.3s;
+
+  letter-spacing: 0.2rem;
+  overflow: hidden;
+
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  z-index: 1;
+}
+
+.click {
+  animation: loading2 5s;
+}
+
+button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0cf;
+  border-radius: 10rem;
+  z-index: -2;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: green;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+
+button:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+button:hover::before {
+  width: 90%;
+}
+
+.button {
+  width: 20rem;
+  height: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.4rem;
+}
+
+.hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.black {
+  border: 1px solid white;
+}
+
+.loading {
+  color: white;
+}
+
+/* test */
+
+/* @keyframes loading2 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes loading {
+  0% {
+    width: 0%;
+    background-color: #ccc;
+    color: white;
+  }
+  10% {
+    width: 10%;
+    background-color: #c1c1c1;
+    border-radius: 0 1rem 0 1rem;
+  }
+  90% {
+    width: 90%;
+    background-color: #0e0e0e;
+    border-radius: 0 10rem 0 10rem;
+  }
+  100% {
+    width: 100%;
+    background-color: #000;
+    color: white;
+  }
+} */

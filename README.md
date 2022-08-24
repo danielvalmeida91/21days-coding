@@ -10,7 +10,7 @@
 6. Crie um card com efeito glassmorphism. [Dia 6 - Glassmorphism](https://github.com/danielvalmeida91/21days-coding/tree/main/05%20-%20Glassmorphism) ✓
 7. Desenvolva um contador. [Dia 8 - Crie um contador](https://github.com/danielvalmeida91/21days-coding/tree/main/07%20-%20Counter) ✓
 8. Desenvolva um toggle que altere o tema para claro e escuro. [Dia 8 - Botao alternador de temas](https://github.com/danielvalmeida91/21days-coding/tree/main/08%20-%20Toggle%20Button) ✓
-9. Crie uma animação de loading. [Dia 9 - Animacao de Loading](https://github.com/danielvalmeida91/21days-coding/tree/main/09%20-%20Animation%20Loading)
+9. Crie uma animação de loading. [Dia 9 - Animacao de Loading](https://github.com/danielvalmeida91/21days-coding/tree/main/09%20-%20Animation%20Loading) ✓
 10. Utilize a lib Particle.js de JavaScript. [Dia 10 - Lib Particle.js](https://github.com/danielvalmeida91/21days-coding/tree/main/10%20-%20Lib%20Particle.js)
 11. Crie o layout de um formulário de login. [Dia 11 - Formulario de Login](https://github.com/danielvalmeida91/21days-coding/tree/main/11%20-%20Form%20login)
 12. Desenvolva uma galeria de imagens. [Dia 12 - Galeria de imagens](https://github.com/danielvalmeida91/21days-coding/tree/main/12%20-%20Carroussel)
