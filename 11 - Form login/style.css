@@ -1,0 +1,136 @@
+:root {
+  font-size: 62.5%;
+
+  --primary: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(./bg2.jpg);
+  backdrop-filter: blur(0.2rem);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+
+  padding: 0 1rem;
+
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 1.6rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.logo {
+  padding-top: 2rem;
+}
+
+.logo svg {
+  width: 10rem;
+  height: 10rem;
+  fill: var(--primary);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+
+  fill: var(--primary);
+}
+
+.login,
+.secret {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+
+  gap: 2rem;
+}
+
+.login input,
+.secret input {
+  height: 3rem;
+  padding: 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--primary);
+
+  font-size: 1.8rem;
+  font-family: 'Inter', sans-serif;
+  color: var(--primary);
+}
+
+.login input:focus,
+.secret input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.secret input::-ms-clear,
+.secret input::-ms-reveal {
+  display: none;
+}
+
+.lost {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+
+.lost a {
+  text-decoration: none;
+  color: #c7c7c7;
+  cursor: pointer;
+
+  font-size: 1.4rem;
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+}
+
+.buttons button {
+  width: 30rem;
+  height: 4rem;
+
+  font-size: 1.8rem;
+  color: white;
+  background: rgb(18, 163, 144);
+
+  border: none;
+  border-radius: 1.6rem;
+}
