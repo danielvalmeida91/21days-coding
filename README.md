@@ -13,6 +13,6 @@
 9. Crie uma animação de loading. [Dia 9 - Animacao de Loading](https://github.com/danielvalmeida91/21days-coding/tree/main/09%20-%20Animation%20Loading) ✓
 10. Utilize a lib Particle.js de JavaScript. [Dia 10 - Lib Particle.js](https://github.com/danielvalmeida91/21days-coding/tree/main/10%20-%20Particle.js) ✓
 11. Crie o layout de um formulário de login. [Dia 11 - Formulario de Login](https://github.com/danielvalmeida91/21days-coding/tree/main/11%20-%20Form%20login) ✓
-12. Desenvolva uma galeria de imagens. [Dia 12 - Galeria de imagens](https://github.com/danielvalmeida91/21days-coding/tree/main/12%20-%20Carroussel)
+12. Desenvolva uma galeria de imagens. [Dia 12 - Galeria de imagens](https://github.com/danielvalmeida91/21days-coding/tree/main/12%20-%20Carroussel) ✓
 13. Desenvolva uma menu responsivo. [Dia 13 - Menu responsivo](https://github.com/danielvalmeida91/21days-coding/tree/main/13%20-%20Responsive%20menu)
 14. Crie um formulário de quizzes. [Dia 14 - Formulario de Quizzes](https://github.com/danielvalmeida91/21days-coding/tree/main/14%20-%20Form%20quiz)

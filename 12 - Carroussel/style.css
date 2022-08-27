@@ -1,0 +1,79 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+}
+
+.card {
+  transition: ease-in-out;
+}
+
+.card img {
+  width: 60rem;
+  height: 80rem;
+
+  object-fit: cover;
+
+  border-radius: 1.6rem;
+
+  background-color: transparent;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+.toRight svg,
+.toLeft svg {
+  width: 5rem;
+  height: 5rem;
+
+  fill: #464040;
+}
+
+.hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@keyframes changeImageRight {
+  from {
+    margin-left: -5px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
