@@ -15,4 +15,4 @@
 11. Crie o layout de um formulário de login. [Dia 11 - Formulario de Login](https://github.com/danielvalmeida91/21days-coding/tree/main/11%20-%20Form%20login) ✓
 12. Desenvolva uma galeria de imagens. [Dia 12 - Galeria de imagens](https://github.com/danielvalmeida91/21days-coding/tree/main/12%20-%20Carroussel) ✓
 13. Desenvolva uma menu responsivo. [Dia 13 - Menu responsivo](https://github.com/danielvalmeida91/21days-coding/tree/main/13%20-%20Responsive%20menu) ✓
-14. Crie um formulário de quizzes. [Dia 14 - Formulario de Quizzes](https://github.com/danielvalmeida91/21days-coding/tree/main/14%20-%20Form%20quiz)
+14. Crie um formulário de quizzes. [Dia 14 - Formulario de Quizzes](https://github.com/danielvalmeida91/21days-coding/tree/main/14%20-%20Form%20quiz) ✓
