@@ -17,7 +17,7 @@
 13. Desenvolva uma menu responsivo. [Dia 13 - Menu responsivo](https://github.com/danielvalmeida91/21days-coding/tree/main/13%20-%20Responsive%20menu) ✓
 14. Crie um formulário de quizzes. [Dia 14 - Formulario de Quizzes](https://github.com/danielvalmeida91/21days-coding/tree/main/14%20-%20Form%20quiz) ✓
 15. Desenvolva um site que exiba uma vitrine de produtos de um e-commerce fictício. [Dia 15 - Vitrine e-commerce](https://github.com/danielvalmeida91/21days-coding/tree/main/15%20-%20Shopping%20cart) ✓
-16. Desenvolva um site utilizando alguma api pública. [Dia 16 - API Pública](https://github.com/danielvalmeida91/21days-coding/tree/main/16%20-%20Public%20API)
+16. Desenvolva um site utilizando alguma api pública. [Dia 16 - API Pública](https://github.com/danielvalmeida91/21days-coding/tree/main/16%20-%20Public%20API) ✓
 17. Desenvolva um site que capture os eventos do teclado e exiba na tela o evento e a tecla pressionada. [Dia 17 - Capturador de eventos](https://github.com/danielvalmeida91/21days-coding/tree/main/17%20-%20Capture%20key)
 18. Desenvolva um gerador de senhas aleatórias. [Dia 18 - Gerador de senhas](https://github.com/danielvalmeida91/21days-coding/tree/main/18%20-%20Password%20generator)
 19. Desenvolva um site que gere imagens aleatórias utilizando a API do unsplash. [Dia 19 - API Unsplash](https://github.com/danielvalmeida91/21days-coding/tree/main/19%20-%20Unsplash%20API)
