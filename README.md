@@ -19,7 +19,7 @@
 15. Desenvolva um site que exiba uma vitrine de produtos de um e-commerce fictício. [Dia 15 - Vitrine e-commerce](https://github.com/danielvalmeida91/21days-coding/tree/main/15%20-%20Shopping%20cart) ✓
 16. Desenvolva um site utilizando alguma api pública. [Dia 16 - API Pública](https://github.com/danielvalmeida91/21days-coding/tree/main/16%20-%20Public%20API) ✓
 17. Desenvolva um site que capture os eventos do teclado e exiba na tela o evento e a tecla pressionada. [Dia 17 - Capturador de eventos](https://github.com/danielvalmeida91/21days-coding/tree/main/17%20-%20Capture%20key) ✓
-18. Desenvolva um gerador de senhas aleatórias. [Dia 18 - Gerador de senhas](https://github.com/danielvalmeida91/21days-coding/tree/main/18%20-%20Password%20generator)
+18. Desenvolva um gerador de senhas aleatórias. [Dia 18 - Gerador de senhas](https://github.com/danielvalmeida91/21days-coding/tree/main/18%20-%20Password%20generator) ✓
 19. Desenvolva um site que gere imagens aleatórias utilizando a API do unsplash. [Dia 19 - API Unsplash](https://github.com/danielvalmeida91/21days-coding/tree/main/19%20-%20Unsplash%20API)
 20. Desenvolva um site de emoji picker. [Dia 20 - Seletor de emoji](https://github.com/danielvalmeida91/21days-coding/tree/main/20%20-%20Emoji%20picker)
 21. Desenvolva uma página que será seu portfólio. [Dia 21 - Portfolio](https://github.com/danielvalmeida91/21days-coding/tree/main/21%20-%20Portfolio)
