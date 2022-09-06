@@ -22,4 +22,4 @@
 18. Desenvolva um gerador de senhas aleatórias. [Dia 18 - Gerador de senhas](https://github.com/danielvalmeida91/21days-coding/tree/main/18%20-%20Password%20generator) ✓
 19. Desenvolva um site que gere imagens aleatórias utilizando a API do unsplash. [Dia 19 - API Unsplash](https://github.com/danielvalmeida91/21days-coding/tree/main/19%20-%20Unsplash%20API) ✓
 20. Desenvolva um site de emoji picker. [Dia 20 - Seletor de emoji](https://github.com/danielvalmeida91/21days-coding/tree/main/20%20-%20Emoji%20picker) ✓
-21. Desenvolva uma página que será seu portfólio. [Dia 21 - Portfolio](https://github.com/danielvalmeida91/21days-coding/tree/main/21%20-%20Portfolio)
+21. Desenvolva uma página que será seu portfólio. [Dia 21 - Portfolio](https://github.com/danielvalmeida91/21days-coding/tree/main/21%20-%20Portfolio) ✓
